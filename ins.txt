@@ -1,0 +1,7 @@
+sudo apt-get update
+sudo add-apt-repository -y ppa:hvr/ghc
+sudo apt-get update
+sudo apt-get install -y ghc-7.8.2
+sudo cp /opt/ghc/7.8.2/bin/ghci /usr/bin/ghci
+
+sudo cp /opt/ghc/7.8.2/bin/ghc /usr/bin/ghc
